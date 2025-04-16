@@ -1,9 +1,8 @@
 {
   "apps" : [{
-    "name"        : "tusk-be",
+    "name"        : "TEST-BACKEND-BTS-be",
     "script"      : "bin/www",
     "watch"       : "../",
-    "ignore_watch": ["uploads"],
     "log_date_format"  : "YYYY-MM-DD HH:mm Z"
   }]
 }
