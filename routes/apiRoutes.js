@@ -321,14 +321,14 @@ router.put('/checklist/:checklistId/item/:checklistItemId',authenticateAccessTok
         if(isSuccess){
             return res.status(200).send({
                 status: "success",
-                message: "Data berhasil di hapus",
+                message: "Data berhasil di ubah",
                 
             });
         }
         else{
             return res.status(500).send({
                 status: "failure",
-                message: "Data tidak berhasil di hapus",
+                message: "Data tidak berhasil di ubah",
                 
             });
         }
@@ -403,14 +403,14 @@ router.put('/checklist/:checklistId/item/rename/:checklistItemId',authenticateAc
         if(isSuccess){
             return res.status(200).send({
                 status: "success",
-                message: "Data berhasil di hapus",
+                message: "Data berhasil di ubah",
                 
             });
         }
         else{
             return res.status(500).send({
                 status: "failure",
-                message: "Data tidak berhasil di hapus",
+                message: "Data tidak berhasil di ubah",
                 
             });
         }
